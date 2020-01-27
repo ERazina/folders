@@ -1,0 +1,10 @@
+@mixin buttons {
+    background: green;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    color: $white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

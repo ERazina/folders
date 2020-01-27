@@ -1,0 +1,10 @@
+.AddNote{
+    margin-top: 90px;
+
+}
+
+#root > div > div > div > div.AddNote > form > div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

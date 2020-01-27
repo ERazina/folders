@@ -1,0 +1,39 @@
+.folders{
+    width: 33%;
+    // background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 16px;
+    align-items: center;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+
+    .flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%;
+        padding: 20px;
+        padding-left: 50px;
+        align-items: center;
+        // background-color: lightgrey;
+
+
+    }
+
+    .flex.active{
+        box-shadow: 0 0 3px rgba(0,0,0,0.5);
+        background-color: darken(lightgrey, 10%);
+    }
+
+    button{
+        margin: 5px;
+        border-radius: 10px;
+        background-color: #3F88C5;
+        color: white;
+        border: none;
+    }
+
+}

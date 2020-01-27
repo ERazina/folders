@@ -1,0 +1,54 @@
+.notes{
+    margin-top: 20px;
+    margin-left: 20px;
+
+    .note{
+        // width: 100px;
+        // -webkit-box-shadow: 5px 7px 8px 1px rgba(0,0,0,0.75);
+        // -moz-box-shadow: 5px 7px 8px 1px rgba(0,0,0,0.75);
+        // box-shadow: 5px 7px 8px 1px rgba(0,0,0,0.75);
+        // margin: 10px;
+
+        color:  darken(lightblue, 40%);
+        background-color: rgb(255, 255, 255);
+        transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+        box-sizing: border-box;
+        font-family: Roboto, sans-serif;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(180, 136, 136, 0.12) 0px 1px 4px;
+        border-radius: 2px;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        align-items: center;
+        position: relative;
+
+        .icon{
+            padding: 0 5px 0 5px;
+        }
+
+        .title{
+            color: darken(lightblue, 40%);
+        }
+    }
+    .note:hover{
+        cursor: pointer;
+    }
+
+    .cross{
+        font-size: 20px;
+        position: absolute;
+        right: 5px;
+        width:20px;
+        height: 20px;
+    }
+
+    .edit{
+        position: absolute;
+        right: 25px;
+        font-size: 20px;
+    }
+
+
+}
