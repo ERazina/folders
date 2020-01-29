@@ -1,1 +1,2 @@
-FR_08 erazina
+# Folders manager project.
+React
